@@ -9,3 +9,12 @@ Fetch the latest data about COVID-19 deaths from the [EU Open Data Portal](https
 Use `./build.sh` to create the image `generate-covid-visualization` from the `Dockerfile`.
 
 Use `./run.sh` to generate the `png` and `pdf` file that contain the visualization.
+
+### Examples:
+
+Examples of the png generated
+
+- [2020-05-08-COVID-19-UK-data-visualization-01.png](generate-covid-visualization/2020-05-08-COVID-19-UK-data-visualization-01.png)
+![](generate-covid-visualization/2020-05-08-COVID-19-UK-data-visualization-01.png)
+- [2020-05-08-COVID-19-UK-data-visualization-02.png](generate-covid-visualization/2020-05-08-COVID-19-UK-data-visualization-02.png)
+![](generate-covid-visualization/2020-05-08-COVID-19-UK-data-visualization-02.png)
