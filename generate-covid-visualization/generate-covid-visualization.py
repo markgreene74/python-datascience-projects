@@ -46,7 +46,7 @@ sns.set()
 _filename = _today + "-COVID-19-UK-data-visualization-01"
 
 fig, (ax1, ax2) = plt.subplots(2, sharex=True, figsize=(14, 10))
-fig.suptitle("UK - COVID-19 Deaths after March 1st 2020 - Updated " + _today)
+fig.suptitle(graph_title)
 
 ax1.set_title("deaths_per_100k")
 ax1.plot(plot_this["dateRep"], plot_this["deaths_per_100k"])
